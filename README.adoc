@@ -1,7 +1,7 @@
-== acsequge
+== ACSEQUGE (axecuge!)
 Acsequge (Academic Search Engines Query Generator) generates query strings for different academic search engines using a same source of query items. It has use especially in SLR (Systematic Literature Review).
 
-=Usage
+= Usage
 First put your query items in the  query_items.json.
 Please note the file structure is actually an S-expression.
 It also needs to have the root object as "QUERY".
