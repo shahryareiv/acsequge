@@ -1,0 +1,99 @@
+>>>>>>>>>>
+Scopus:
+>>>>>>>>>>
+
+
+
+TITLE-ABS-KEY (
+{{#with QUERY}}
+  {{#each this}} 
+    {{#unless @first}}
+      (
+      {{#each this}}
+          {{#unless @first}}
+            {{#unless @last}}
+              "{{this}}"  {{lookup .. 0}}
+            {{else}}
+              "{{this}}"
+            {{/unless}}
+          {{else}}
+          {{/unless}}
+        {{else}}
+      {{/each}}
+      )
+      {{#unless @last}}
+        AND 
+      {{/unless}}
+    {{/unless}}  
+  {{/each}}
+{{/with}}
+)
+
+
+
+
+
+
+>>>>>>>>>>
+PubMed:
+>>>>>>>>>>
+
+
+
+{{#with QUERY}}
+  {{#each this}} 
+    {{#unless @first}}
+      (
+      {{#each this}}
+          {{#unless @first}}
+            {{#unless @last}}
+              "{{this}}"  {{lookup .. 0}}
+            {{else}}
+              "{{this}}"
+            {{/unless}}
+          {{else}}
+          {{/unless}}
+        {{else}}
+      {{/each}}
+      )
+      {{#unless @last}}
+        AND 
+      {{/unless}}
+    {{/unless}}  
+  {{/each}}
+{{/with}}
+
+
+
+
+
+>>>>>>>>>>
+Web of Science:
+>>>>>>>>>>
+
+
+
+{{#with QUERY}}
+  {{#each this}} 
+    {{#unless @first}}
+      (
+      {{#each this}}
+          {{#unless @first}}
+            {{#unless @last}}
+              TS="{{this}}"  {{lookup .. 0}}
+            {{else}}
+              TS="{{this}}"
+            {{/unless}}
+          {{else}}
+          {{/unless}}
+        {{else}}
+      {{/each}}
+      )
+      {{#unless @last}}
+        AND 
+      {{/unless}}
+    {{/unless}}  
+  {{/each}}
+{{/with}}
+
+

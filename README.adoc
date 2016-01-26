@@ -1,0 +1,14 @@
+== acsequge
+Acsequge (Academic Search Engines Query Generator) generates query strings for different academic search engines using a same source of query items. It has use especially in SLR (Systematic Literature Review).
+
+=Usage
+First put your query items in the  query_items.json.
+Please note the file structure is actually an S-expression.
+It also needs to have the root object as "QUERY".
+
+Then you can use an online handlesbar translator (such as: http://tryhandlebarsjs.com/) or clone this git and run the acsequege.js by nodejs to convert the query_items.json to a text output that you can copy and paste the result for Scopus, PubMed and Web of Knowlege query formats.
+
+In the online version you need to copy handlesbar_template.txt to the template section and query_items.json to the context section.
+In the code version things happen by running:
+`node ./acsequge.js -i [input_json_file.json] -t [template.txt] -o [output.txt]`
+

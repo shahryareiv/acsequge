@@ -1,0 +1,105 @@
+>>>>>>>>>>
+Scopus:
+>>>>>>>>>>
+
+
+
+TITLE-ABS-KEY (
+      (
+              "longitudinal study"  OR
+              "population"
+      )
+        AND 
+      (
+              "Dimentia"  OR
+              "Dementia"  OR
+              "Alzheimer"
+      )
+        AND 
+      (
+              "Machine Learning"
+      )
+        AND 
+      (
+              "Classification"  OR
+              "Regression"
+      )
+        AND 
+      (
+              "diagnosis"  OR
+              "diagnostic"
+      )
+)
+
+
+
+
+
+
+>>>>>>>>>>
+PubMed:
+>>>>>>>>>>
+
+
+
+      (
+              "longitudinal study"  OR
+              "population"
+      )
+        AND 
+      (
+              "Dimentia"  OR
+              "Dementia"  OR
+              "Alzheimer"
+      )
+        AND 
+      (
+              "Machine Learning"
+      )
+        AND 
+      (
+              "Classification"  OR
+              "Regression"
+      )
+        AND 
+      (
+              "diagnosis"  OR
+              "diagnostic"
+      )
+
+
+
+
+
+>>>>>>>>>>
+Web of Science:
+>>>>>>>>>>
+
+
+
+      (
+              TS="longitudinal study"  OR
+              TS="population"
+      )
+        AND 
+      (
+              TS="Dimentia"  OR
+              TS="Dementia"  OR
+              TS="Alzheimer"
+      )
+        AND 
+      (
+              TS="Machine Learning"
+      )
+        AND 
+      (
+              TS="Classification"  OR
+              TS="Regression"
+      )
+        AND 
+      (
+              TS="diagnosis"  OR
+              TS="diagnostic"
+      )
+
+

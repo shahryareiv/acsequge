@@ -1,0 +1,24 @@
+{"QUERY":
+["AND",
+  ["OR",
+    "longitudinal study",
+    "population"
+  ],
+  ["OR",
+    "Dimentia",
+    "Dementia",
+    "Alzheimer"
+  ],
+  ["OR",
+    "Machine Learning"
+  ],
+  ["OR",
+    "Classification",
+    "Regression"
+  ],
+  ["OR",
+    "diagnosis",
+    "diagnostic"
+  ]
+]
+}
